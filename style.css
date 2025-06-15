@@ -1,8 +1,10 @@
+/* removes default spacing that browsers typically add around the body element */
+body {
+  margin: auto 0;
+}
+
 .zone {
-    padding:30px 50px;
-    margin:40px 60px;
     cursor:pointer;
-    display:inline-block;
     color:#FFF;
     font-size:2em;
     border-radius:4px;
@@ -23,6 +25,11 @@
   list-style: none; /* removes bullet points from the unorrdered list */
   font-size: 0.8em;
   margin: 0;
+}
+
+/* pushes the element all the way to the right edge of its parent container */
+.push {
+  margin-left: auto;
 }
 
 li {

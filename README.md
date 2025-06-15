@@ -1,3 +1,4 @@
-## CSS Layout Template that can be used to create a base layout for a website
+## CSS Layout Template 
 
-From ZeroToMastery's "Complete Web Dev" Course.  
+- From the ZeroToMastery's "Complete Web Dev" Course
+- Can be used to create a base layout for a website
