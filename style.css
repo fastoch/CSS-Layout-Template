@@ -19,15 +19,15 @@ body {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
-/* NAVBAR */
+/* Navigation Bar */
 .main-nav {
-  display: flex;
+  display: flex; /* makes the nav element a flex container */
   list-style: none; /* removes bullet points from the unorrdered list */
   font-size: 0.8em;
   margin: 0;
 }
 
-/* pushes the element all the way to the right edge of its parent container */
+/* pushes the last li element all the way to the right edge of its parent container */
 .push {
   margin-left: auto;
 }
