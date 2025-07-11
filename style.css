@@ -21,15 +21,20 @@ body {
 
 /* Navigation Bar */
 .main-nav {
-  display: flex; /* makes the nav element a flex container */
+  display: flex; /* makes the nav element a flexbox container */
   list-style: none; /* removes bullet points from the unorrdered list */
   font-size: 0.8em;
   margin: 0;
 }
 
 /* pushes the last li element all the way to the right edge of its parent container */
-.push {
+.push-right {
   margin-left: auto;
+}
+
+/* pushes the first li element a bit to the left */
+.push-left {
+  padding-left: 0;
 }
 
 li {
@@ -39,6 +44,18 @@ li {
 a {
   color: #f5f5f5;
   text-decoration: none; /* removes the underline from the links */
+}
+
+/* for small screens */
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0;
+  }
+
+  .push-left {
+    padding-left: 2rem;
+  }
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
